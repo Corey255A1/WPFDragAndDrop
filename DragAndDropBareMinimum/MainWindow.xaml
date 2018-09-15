@@ -1,0 +1,17 @@
+﻿<Window x:Class="DragAndDropBareMinimum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DragAndDropBareMinimum"
+        mc:Ignorable="d"
+        Title="Drag and Drop Color Example" Height="494.669" Width="902.574">
+    <Grid>
+        <local:DropZone HorizontalAlignment="Right" Margin="0,10,10,10" Width="315"/>
+        <local:Draggable HorizontalAlignment="Left" Height="105" Margin="10,10,0,0" VerticalAlignment="Top" Width="150"/>
+        <local:Draggable HorizontalAlignment="Left" Height="105" Margin="10,120,0,0" VerticalAlignment="Top" Width="150" Background="#FF00C12C"/>
+        <local:Draggable HorizontalAlignment="Left" Height="105" Margin="10,230,0,0" VerticalAlignment="Top" Width="150" Background="#FF00D1FF"/>
+        <local:Draggable HorizontalAlignment="Left" Height="105" Margin="10,340,0,0" VerticalAlignment="Top" Width="150" Background="#FFAE00FF"/>
+
+    </Grid>
+</Window>

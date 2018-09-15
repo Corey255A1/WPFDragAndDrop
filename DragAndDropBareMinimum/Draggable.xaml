@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="DragAndDropBareMinimum.Draggable"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DragAndDropBareMinimum"
+             mc:Ignorable="d" Height="243.199" Width="265.625" BorderBrush="Black" BorderThickness="5" Background="Red" MouseMove="UserControl_MouseMove" PreviewGiveFeedback="UserControl_PreviewGiveFeedback">
+    <Grid>
+        <Label Content="DRAGGABLE" FontFamily="Calibri" FontSize="24" FontWeight="Bold" Foreground="White"></Label>
+    </Grid>
+</UserControl>
